@@ -1,0 +1,27 @@
+@baseUrl = http://just4med.com/api
+# @token = {{login.response.body.data.token}}
+
+
+# # Captures the UUID from the POST response automatically
+# @listingId = {{create_listing.response.body.data.id}}
+
+###
+# @name customer_login
+POST {{baseUrl}}/customer/login
+Content-Type: application/json
+Accept: application/json
+
+{
+
+}
+
+# {
+#     "email": "jane.smithr11@example.com",
+#     "password": "Pa55w0rd123"
+# }
+
+###
+# @name base_test
+GET {{baseUrl}}/customer/login
+Content-Type: application/json
+Accept: application/json

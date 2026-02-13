@@ -1,9 +1,9 @@
 import { Dimensions } from "react-native";
 
-export const base_url = "enter_your_admin_link_here/";
-export const paypal_url = "enter_your_admin_link_here/";
-export const api_url = "enter_your_admin_link_here/api/";
-export const img_url = "enter_your_admin_link_here/uploads/";
+export const base_url = "http://just4med.com/";
+export const paypal_url = "http://just4med.com/";
+export const api_url = "http://just4med.com/api/";
+export const img_url = "http://just4med.com/uploads/";
 export const app_name = "wecare";
 export const success_url = paypal_url+"paypal_success";
 export const failed_url = paypal_url+"paypal_failed";
